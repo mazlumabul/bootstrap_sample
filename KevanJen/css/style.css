@@ -1,0 +1,278 @@
+/* GENEREAL STYLE*/
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #ff8c00;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* HOME SECTİON*/
+.navbar {
+    border-bottom: 1px solid #ff8c00;
+}
+
+.navbar-brand {
+
+    color: #ff8c00 !important;
+    font-size: 24px;
+    font-family: 'Fondamento', cursive;
+}
+
+.bg-dark {
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.nav-link {
+    color: white !important;
+    text-transform: uppercase;
+    transition: color .5s ease;
+}
+
+.nav-link:hover {
+    color: #ff8c00 !important;
+
+}
+
+#headerSection {
+    background: url('../images/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+#headerSection .overlay {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+#headerSection .row {
+    height: 100vh;
+}
+
+#headerSection span {
+    color: #ff8c00 !important;
+    font-family: 'Fondamento', cursive;
+}
+
+.btn-outline-warning {
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5;
+    cursor: pointer;
+}
+
+/* FEATURES SECTİON*/
+
+#features .icon {
+    font-size: 50px;
+}
+
+.feature-top {
+    transition: color .5s ease;
+}
+
+.feature-top:hover {
+    color: #ff8c00;
+    cursor: pointer;
+}
+
+/* HISTORY SECTİON*/
+
+#history h2 {
+    border-left: 8px solid #ff8c00;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+
+#history .col-md-6 {
+    display: inline;
+
+}
+
+#history .btn-outline-warning {
+    position: absolute;
+    bottom: 0;
+}
+
+#history {
+    line-height: 24px;
+}
+
+/* TEAMS SECTION*/
+
+#teams .card {
+    border: none;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+}
+
+#teams .card:hover {
+    opacity: 1;
+
+}
+
+#teams .fab {
+    font-size: 30px;
+}
+
+
+
+/* WHAT WE DO SECTION*/
+#whatWeDo {
+    background: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url(/images/code.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#whatWeDo i{
+    color: #ff8c00;
+}
+
+/* CASE STUDY SECTION*/
+#caseStudy {
+    background-color: antiquewhite;
+    line-height: 28px;
+}
+
+.caseArea {
+    background-color: white;
+
+
+}
+
+#caseStudy h3 {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #ff8c00;
+
+}
+
+#caseStudy .fa {
+    color: #ff8c00;
+}
+
+
+/* PORTFOLIO SECTION*/
+#portfolio .col-md-3 {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+#portfolio h4 {
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+#portfolio .fa {
+    margin-bottom: 20px;
+
+}
+
+#portfolio p {
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+.imageContainer {
+    position: relative;
+    cursor: pointer;
+}
+
+.imageOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #ff8c00;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.imageContainer:hover .imageOverlay {
+    opacity: .7;
+}
+
+.imageText {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*CONTACT SECTION */
+
+#contact {
+    background-color: antiquewhite;
+}
+
+#contact .input-group-text {
+    border-radius: 0;
+    color: #fff;
+    background-color: #ff8c00;
+}
+
+#contact .form-control,
+#contact .btn {
+    border-radius: 0;
+
+}
+
+#contact .btn {
+    background-color: #ff8c00;
+}
+
+/* FOOTER SECTION*/
+#main-footer {
+    color: white;
+    background-color: black;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width:1200px) {
+    #history p {
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .display-3 {
+        font-size: 48px;
+    }
+
+    #history .btn {
+        position: relative;
+    }
+
+    .historyLeft,
+    .historyRight {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .display-3 {
+        font-size: 32px;
+    }
+
+}
